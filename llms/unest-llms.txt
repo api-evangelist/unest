@@ -1,0 +1,32 @@
+# UNest
+
+> UNest is a fintech app that helps parents and families save and invest for children's futures through UTMA/UGMA custodial accounts, 529 college savings plans, and term life insurance.
+
+## About
+- SEC-registered investment adviser (UNest Advisers, LLC)
+- Brokerage services through UNest Securities, LLC (FINRA/SIPC member)
+- Clearing through Apex Clearing Corporation
+
+## Products
+- [Investment Accounts](https://unest.co/pricing): UTMA/UGMA custodial accounts for children
+- [Life Insurance](https://unest.co/life-insurance): Affordable term life insurance through Ladder
+- [College Savings](https://unest.co/insights): Educational content for parents
+
+## Resources
+- [FAQ](https://unest.co/faq): Common questions about accounts, fees, and investing
+- [Blog](https://unest.co/insights): Financial literacy articles for families
+- [Corporate Partners](https://unest.co/partners): Zero-cost employee benefit program
+- [530A Trump Accounts](https://unest.co/trump-accounts): Upcoming 530A accounts for kids
+- [Affiliate Program](https://unest.co/affiliate): Partner with UNest
+
+## Legal
+- [Privacy Policy](https://unest.co/privacy)
+- [Terms and Conditions](https://unest.co/terms)
+- [Investment Advisory Agreement](https://unest.co/iaa)
+- [Important Disclosures](https://unest.co/disclosures)
+- [Form CRS](https://unest.co/documents/UNest-Advisers-Form-CRS-2025.11.20.pdf)
+- [Form ADV Part 2](https://unest.co/documents/ADV-Part-2A-Appendix-1-Wrap-Fee-Brochure-2025.11.20.pdf)
+
+## Optional
+- [SEC Rule 606 Disclosure](https://unest.co/sec-rule-606)
+- [Calculator Disclaimer](https://unest.co/calculator-disclaimer)

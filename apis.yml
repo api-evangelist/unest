@@ -1,7 +1,32 @@
 aid: unest
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unest.png
 name: UNest
-description: UNest is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
+description: >-
+  UNest is a Los Angeles-based fintech app that helps parents and families
+  save and invest for their children's futures through UTMA/UGMA custodial
+  investment accounts, with brand rewards contributions, gifting, financial
+  literacy content, and term life insurance offered through Ladder. UNest
+  Advisers, LLC is an SEC-registered investment adviser, with brokerage
+  through UNest Securities, LLC (FINRA/SIPC) and clearing through Apex
+  Clearing. The company is a consumer mobile-app business and publishes no
+  public developer API, though its site ships a real llms.txt. Surfaced as a
+  500 Global portfolio company in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/unest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +36,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- FinTech
+- Investing
+- Custodial Accounts
+- Savings
+- Insurance
+- Family Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/unest-domain-security.yml
 - type: Website
   url: https://unest.co
+- type: WellKnown
+  url: well-known/unest-well-known.yml
+- type: LLMsTxt
+  url: llms/unest-llms.txt
+- type: Pricing
+  url: https://unest.co/pricing
+- type: TermsOfService
+  url: https://unest.co/terms
+- type: PrivacyPolicy
+  url: https://unest.co/privacy
+- type: Blog
+  url: https://unest.co/insights
+- type: Support
+  url: https://unest.co/faq
+- type: SignUp
+  url: https://web.unest.co

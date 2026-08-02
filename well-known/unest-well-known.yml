@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the only host in
+  apis.yml (https://unest.co — UNest publishes no API baseURL). Status is the
+  HTTP code observed at fetch time. UNest is a consumer fintech app with no
+  public API surface; no well-known discovery documents are published. The
+  site does publish a real /llms.txt (captured at llms/unest-llms.txt).
+hosts:
+  - host: https://unest.co
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
